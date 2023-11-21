@@ -86,4 +86,4 @@ HTML、SCSS（Sass）、JavaScript、RWD（響應式網頁設計）、Git 版本
 **電子郵件：** yhjhs92929.2016@gmail.com  
 
 ## License
-Web-Resume is released under MIT license. © 2023 蔡容安
+Web-Resume is released under MIT license. © 2023 Rung-An Tsai
