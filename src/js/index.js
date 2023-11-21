@@ -113,5 +113,8 @@ $(document).ready(function () {
     });
   }
 
-  $('section').find('img').addClass('img-shadow');
+  $('.swiper-slide').find('img').addClass('img-shadow');
+  $('.aside-title').siblings('img').addClass('img-shadow');
+  $('#modal-img').addClass('img-shadow');
+  $('video').addClass('img-shadow');
 });

@@ -25,6 +25,7 @@ $colors:(
 //預設文字大小
 $ft: 16px;
 
+$none:  0px;
 $xxxxs: 0.1rem; 
 $xxxs:  0.2rem;   
 $xxs:   0.5rem;   //8px
@@ -37,6 +38,7 @@ $xxl:   2.25rem;  //36px
 $xxxl:  2.75rem;  //44px
 
 $sizes:(
+  '0':     $none,
   'ft':    $ft,
   'xxxxs': $xxxxs,
   'xxxs':  $xxxs,

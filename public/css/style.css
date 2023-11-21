@@ -4317,6 +4317,101 @@ table {
 /*----------------- breakpoints -----------------*/
 /*flex*/
 /*font*/
+.fz-0 {
+  font-size: 0px;
+}
+
+.lts-0 {
+  letter-spacing: 0px !important;
+}
+
+.lh-0 {
+  line-height: 0px;
+}
+
+.h-0 {
+  height: 0px !important;
+}
+
+/*spacing*/
+.m-0 {
+  margin: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.mx-0 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.px-0 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/*position*/
+.top-0 {
+  top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+/*font*/
 .fz-ft {
   font-size: 16px;
 }
@@ -5621,6 +5716,10 @@ table {
   margin-bottom: 0;
 }
 
+.mr-0 {
+  margin-right: 0px;
+}
+
 .pb-120 {
   padding-bottom: 120px;
 }
@@ -5686,6 +5785,25 @@ table {
   .mw-pc-100 {
     max-width: 100%;
   }
+  .fz-pc-0 {
+    font-size: 0px;
+  }
+  .lh-pc-0 {
+    line-height: 0px;
+  }
+  .p-pc-0 {
+    padding: 0px;
+  }
+  .px-pc-0 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .mb-pc-0 {
+    margin-bottom: 0px;
+  }
+  .mr-pc-0 {
+    margin-right: 0px;
+  }
   .fz-pc-ft {
     font-size: 16px;
   }
@@ -5701,6 +5819,9 @@ table {
   }
   .mb-pc-ft {
     margin-bottom: 16px;
+  }
+  .mr-pc-ft {
+    margin-right: 16px;
   }
   .fz-pc-xxxxs {
     font-size: 0.1rem;
@@ -5718,6 +5839,9 @@ table {
   .mb-pc-xxxxs {
     margin-bottom: 0.1rem;
   }
+  .mr-pc-xxxxs {
+    margin-right: 0.1rem;
+  }
   .fz-pc-xxxs {
     font-size: 0.2rem;
   }
@@ -5733,6 +5857,9 @@ table {
   }
   .mb-pc-xxxs {
     margin-bottom: 0.2rem;
+  }
+  .mr-pc-xxxs {
+    margin-right: 0.2rem;
   }
   .fz-pc-xxs {
     font-size: 0.5rem;
@@ -5750,6 +5877,9 @@ table {
   .mb-pc-xxs {
     margin-bottom: 0.5rem;
   }
+  .mr-pc-xxs {
+    margin-right: 0.5rem;
+  }
   .fz-pc-xs {
     font-size: 0.75rem;
   }
@@ -5765,6 +5895,9 @@ table {
   }
   .mb-pc-xs {
     margin-bottom: 0.75rem;
+  }
+  .mr-pc-xs {
+    margin-right: 0.75rem;
   }
   .fz-pc-s {
     font-size: 1.25rem;
@@ -5782,6 +5915,9 @@ table {
   .mb-pc-s {
     margin-bottom: 1.25rem;
   }
+  .mr-pc-s {
+    margin-right: 1.25rem;
+  }
   .fz-pc-m {
     font-size: 1.5rem;
   }
@@ -5797,6 +5933,9 @@ table {
   }
   .mb-pc-m {
     margin-bottom: 1.5rem;
+  }
+  .mr-pc-m {
+    margin-right: 1.5rem;
   }
   .fz-pc-l {
     font-size: 1.75rem;
@@ -5814,6 +5953,9 @@ table {
   .mb-pc-l {
     margin-bottom: 1.75rem;
   }
+  .mr-pc-l {
+    margin-right: 1.75rem;
+  }
   .fz-pc-xl {
     font-size: 2rem;
   }
@@ -5829,6 +5971,9 @@ table {
   }
   .mb-pc-xl {
     margin-bottom: 2rem;
+  }
+  .mr-pc-xl {
+    margin-right: 2rem;
   }
   .fz-pc-xxl {
     font-size: 2.25rem;
@@ -5846,6 +5991,9 @@ table {
   .mb-pc-xxl {
     margin-bottom: 2.25rem;
   }
+  .mr-pc-xxl {
+    margin-right: 2.25rem;
+  }
   .fz-pc-xxxl {
     font-size: 2.75rem;
   }
@@ -5861,6 +6009,9 @@ table {
   }
   .mb-pc-xxxl {
     margin-bottom: 2.75rem;
+  }
+  .mr-pc-xxxl {
+    margin-right: 2.75rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -5900,6 +6051,25 @@ table {
   .mw-pad-100 {
     max-width: 100%;
   }
+  .fz-pad-0 {
+    font-size: 0px;
+  }
+  .lh-pad-0 {
+    line-height: 0px;
+  }
+  .p-pad-0 {
+    padding: 0px;
+  }
+  .px-pad-0 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .mb-pad-0 {
+    margin-bottom: 0px;
+  }
+  .mr-pad-0 {
+    margin-right: 0px;
+  }
   .fz-pad-ft {
     font-size: 16px;
   }
@@ -5915,6 +6085,9 @@ table {
   }
   .mb-pad-ft {
     margin-bottom: 16px;
+  }
+  .mr-pad-ft {
+    margin-right: 16px;
   }
   .fz-pad-xxxxs {
     font-size: 0.1rem;
@@ -5932,6 +6105,9 @@ table {
   .mb-pad-xxxxs {
     margin-bottom: 0.1rem;
   }
+  .mr-pad-xxxxs {
+    margin-right: 0.1rem;
+  }
   .fz-pad-xxxs {
     font-size: 0.2rem;
   }
@@ -5947,6 +6123,9 @@ table {
   }
   .mb-pad-xxxs {
     margin-bottom: 0.2rem;
+  }
+  .mr-pad-xxxs {
+    margin-right: 0.2rem;
   }
   .fz-pad-xxs {
     font-size: 0.5rem;
@@ -5964,6 +6143,9 @@ table {
   .mb-pad-xxs {
     margin-bottom: 0.5rem;
   }
+  .mr-pad-xxs {
+    margin-right: 0.5rem;
+  }
   .fz-pad-xs {
     font-size: 0.75rem;
   }
@@ -5979,6 +6161,9 @@ table {
   }
   .mb-pad-xs {
     margin-bottom: 0.75rem;
+  }
+  .mr-pad-xs {
+    margin-right: 0.75rem;
   }
   .fz-pad-s {
     font-size: 1.25rem;
@@ -5996,6 +6181,9 @@ table {
   .mb-pad-s {
     margin-bottom: 1.25rem;
   }
+  .mr-pad-s {
+    margin-right: 1.25rem;
+  }
   .fz-pad-m {
     font-size: 1.5rem;
   }
@@ -6011,6 +6199,9 @@ table {
   }
   .mb-pad-m {
     margin-bottom: 1.5rem;
+  }
+  .mr-pad-m {
+    margin-right: 1.5rem;
   }
   .fz-pad-l {
     font-size: 1.75rem;
@@ -6028,6 +6219,9 @@ table {
   .mb-pad-l {
     margin-bottom: 1.75rem;
   }
+  .mr-pad-l {
+    margin-right: 1.75rem;
+  }
   .fz-pad-xl {
     font-size: 2rem;
   }
@@ -6043,6 +6237,9 @@ table {
   }
   .mb-pad-xl {
     margin-bottom: 2rem;
+  }
+  .mr-pad-xl {
+    margin-right: 2rem;
   }
   .fz-pad-xxl {
     font-size: 2.25rem;
@@ -6060,6 +6257,9 @@ table {
   .mb-pad-xxl {
     margin-bottom: 2.25rem;
   }
+  .mr-pad-xxl {
+    margin-right: 2.25rem;
+  }
   .fz-pad-xxxl {
     font-size: 2.75rem;
   }
@@ -6075,6 +6275,9 @@ table {
   }
   .mb-pad-xxxl {
     margin-bottom: 2.75rem;
+  }
+  .mr-pad-xxxl {
+    margin-right: 2.75rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -6114,6 +6317,25 @@ table {
   .mw-mobile-100 {
     max-width: 100%;
   }
+  .fz-mobile-0 {
+    font-size: 0px;
+  }
+  .lh-mobile-0 {
+    line-height: 0px;
+  }
+  .p-mobile-0 {
+    padding: 0px;
+  }
+  .px-mobile-0 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .mb-mobile-0 {
+    margin-bottom: 0px;
+  }
+  .mr-mobile-0 {
+    margin-right: 0px;
+  }
   .fz-mobile-ft {
     font-size: 16px;
   }
@@ -6129,6 +6351,9 @@ table {
   }
   .mb-mobile-ft {
     margin-bottom: 16px;
+  }
+  .mr-mobile-ft {
+    margin-right: 16px;
   }
   .fz-mobile-xxxxs {
     font-size: 0.1rem;
@@ -6146,6 +6371,9 @@ table {
   .mb-mobile-xxxxs {
     margin-bottom: 0.1rem;
   }
+  .mr-mobile-xxxxs {
+    margin-right: 0.1rem;
+  }
   .fz-mobile-xxxs {
     font-size: 0.2rem;
   }
@@ -6161,6 +6389,9 @@ table {
   }
   .mb-mobile-xxxs {
     margin-bottom: 0.2rem;
+  }
+  .mr-mobile-xxxs {
+    margin-right: 0.2rem;
   }
   .fz-mobile-xxs {
     font-size: 0.5rem;
@@ -6178,6 +6409,9 @@ table {
   .mb-mobile-xxs {
     margin-bottom: 0.5rem;
   }
+  .mr-mobile-xxs {
+    margin-right: 0.5rem;
+  }
   .fz-mobile-xs {
     font-size: 0.75rem;
   }
@@ -6193,6 +6427,9 @@ table {
   }
   .mb-mobile-xs {
     margin-bottom: 0.75rem;
+  }
+  .mr-mobile-xs {
+    margin-right: 0.75rem;
   }
   .fz-mobile-s {
     font-size: 1.25rem;
@@ -6210,6 +6447,9 @@ table {
   .mb-mobile-s {
     margin-bottom: 1.25rem;
   }
+  .mr-mobile-s {
+    margin-right: 1.25rem;
+  }
   .fz-mobile-m {
     font-size: 1.5rem;
   }
@@ -6225,6 +6465,9 @@ table {
   }
   .mb-mobile-m {
     margin-bottom: 1.5rem;
+  }
+  .mr-mobile-m {
+    margin-right: 1.5rem;
   }
   .fz-mobile-l {
     font-size: 1.75rem;
@@ -6242,6 +6485,9 @@ table {
   .mb-mobile-l {
     margin-bottom: 1.75rem;
   }
+  .mr-mobile-l {
+    margin-right: 1.75rem;
+  }
   .fz-mobile-xl {
     font-size: 2rem;
   }
@@ -6257,6 +6503,9 @@ table {
   }
   .mb-mobile-xl {
     margin-bottom: 2rem;
+  }
+  .mr-mobile-xl {
+    margin-right: 2rem;
   }
   .fz-mobile-xxl {
     font-size: 2.25rem;
@@ -6274,6 +6523,9 @@ table {
   .mb-mobile-xxl {
     margin-bottom: 2.25rem;
   }
+  .mr-mobile-xxl {
+    margin-right: 2.25rem;
+  }
   .fz-mobile-xxxl {
     font-size: 2.75rem;
   }
@@ -6289,6 +6541,9 @@ table {
   }
   .mb-mobile-xxxl {
     margin-bottom: 2.75rem;
+  }
+  .mr-mobile-xxxl {
+    margin-right: 2.75rem;
   }
 }
 /*自定義 reset*/

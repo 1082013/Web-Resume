@@ -17,18 +17,26 @@
       .fz-#{$keyBP}-#{$key} {
         font-size: $value;
       }
-      .lh-#{$keyBP}-#{$key}{
+
+      .lh-#{$keyBP}-#{$key} {
         line-height: $value;
       }
+
       .p-#{$keyBP}-#{$key} {
         padding: $value;
       }
-      .px-#{$keyBP}-#{$key}{
+
+      .px-#{$keyBP}-#{$key} {
         padding-right: $value;
         padding-left: $value;
       }
-      .mb-#{$keyBP}-#{$key}{
+
+      .mb-#{$keyBP}-#{$key} {
         margin-bottom: $value;
+      }
+
+      .mr-#{$keyBP}-#{$key} {
+        margin-right: $value;
       }
     }
   }
