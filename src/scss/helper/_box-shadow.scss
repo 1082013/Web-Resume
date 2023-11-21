@@ -1,0 +1,11 @@
+.shadow-outside {
+  box-shadow: 0px -1px 5px 1px lighten($black, 85px);
+}
+
+.shadow-inset {
+  box-shadow: inset 0px -2px 10px 1px lighten($black, 80px);
+}
+
+.img-shadow {
+  box-shadow: 2px 1px 3px 0px lighten($black, 70%);
+}

@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../src/assets/icons/Logo.ico" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .m0-auto {
+      margin: 0 auto;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="container">
+    <nav class="menu row">
+      <div class="logo col">
+        <a href=""><img class="logo-item " src="../src/assets/images/Logo.png" alt="Logo"></a>
+      </div>
+      <div class="link col-9 col-md-7">
+        <a href="#Autobiography">自傳</a>
+        <a href="#AboutMe">個人簡介</a>
+        <a href="#Skills">技能</a>
+        <a href="#Experience">經歷</a>
+        <a href="#Side Project">個人專案</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container" id="Autobiography">
+    <div class="row justify-content-center">
+      <div class="col-11 col-lg-8 mb-mobile-xxxl">
+        <div class="title mb-xxxl text-align-center">
+          <h3 class="title-en">&lt;Autobiography&gt;</h3>
+          <h2 class="title-ch">自傳</h2>
+        </div>
+        <p class="text-indent-2 text-justify">
+          喜歡動手實作且樂於接受挑戰，遇到未曾碰過的技術總會積極應對，並將所學的新知以簡單易懂的方式筆記下來，期望能在幾年後技術更成熟且筆記內容更完整時，放上網路作為技術文章供初學者網頁前端全方位的學習。關注在設計方面是自己的日常興趣，常使用
+          pinterest 與 behence 蒐集各類型的設計點子，提升自己平時對於美感的標準。近期在網頁前端部分較多以熟練切版與網頁互動效果為目標，另外並行學習串接和 React 框架，期望在未來的一年內將 React
+          框架基本應用學會並熟練實作，讓自己有獨立完成專案的能力。也期望工作上與同事共事的環境下，在設計師與後端工程師兩方面的職務內容也積極撥空花費時間學習了解，建立與設計師和後端工程師有效對話的溝通橋樑。
+        </p>
+        <br>
+        <p class="text-indent-2 text-justify">
+          因注重跨領域的學習，大學期間主動參與多樣的課程、活動與計畫。課程方面包含行銷管理、藝術與美學講座等等，除了奠定基礎外，也能促進發掘與本科系(資訊傳播)的專業結合的可能性。
+          另外自己雖為科技組別，較注重於程式方面的撰寫開發，同時也積極修習設計組別的設計相關課程，同一時期因參與其他院所舉辦的額外課程，老師對於非本科系的自己積極的學習態度留下的深刻印象，推薦我擔任手冊編輯一職，因此我也接下這項任務，增加自己對於不同專案的實務經驗。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fuild  bgcolor-secondary pb-ft pt-ft bdr-rt-lb-60 shadow-outside" id="AboutMe">
+    <!-- <div class="col-2 position-relative pt-l pb-l">
+      <h4 class="slogan position-absolute">每天進步一點<br><br>離未來更近一點</h4>
+    </div> -->
+    <div class="row justify-content-center flex-column-reverse flex-md-row my-l mx-0">
+
+      <div class="col-12 col-md-6 pt-l pb-l d-flex justify-content-center mr-l">
+        <div class="">
+
+          <div
+            class="title mb-xxxl d-flex flex-column flex-sm-row-reverse flex-md-column flex-lg-row-reverse justify-content-sm-center justify-content-md-end align-items-sm-baseline align-items-center">
+            <h3 class="title-en mb-2 mb-sm-0 mb-md-2 mb-lg-0">&lt;About Me&gt;</h3>
+            <h2 class="title-ch">個人簡介</h2>
+          </div>
+
+          <div class="contact-person-name title-accent d-flex mb-s mx-3 ml-md-xxxl align-items-baseline">
+            <h1 class="fz-xl fz-mobile-l lts-xxxxs mr-s">蔡容安</h1>
+            <p class="fz-s fz-mobile-ft lts-xxxxs">Tsai, Rung-An</p>
+          </div>
+          <div class="lts-xxxxs mx-3 ml-md-xxxl">
+            <p>畢業學校 : 元智大學 資訊傳播學系科技組 <span class="fz-xs">2019年09月 - 2023年06月</span></p>
+            <p>應徵職務 : 前端工程師 front-end engineer</p>
+            <p>信箱 : yhjhs92929.2016@gmail.com</p>
+            <p>電話 : 0909-739-891</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-12 col-md-2 pt-l pb-l d-flex justify-content-center">
+        <img src="../src/assets/images/蔡容安_大頭照.jpg" alt="" class="mw-200 mh-276 va-m img-shadow">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="container" id="Skills">
+    <div class="row justify-content-center">
+      <div class="col-11 col-md-10 col-lg-8 pl-xxxl">
+        <div class="title mb-xxxl text-align-center">
+          <h3 class="title-en">&lt;Skills&gt;</h3>
+          <h2 class="title-ch">技能</h2>
+        </div>
+        <div id="skills" class="">
+          <div class="line line-accent line-start right-m"></div>
+          <div class="list">
+            <h5 class="list-title list-lignten-accent-30">網頁切版</h5>
+            <ul>
+              <li>◆　HTML5、CSS：熟悉網頁結構和排版原則。</li>
+              <li>◆　RWD：具有響應式網頁設計的概念，能夠設計和開發響應式網頁。</li>
+              <li>◆　SCSS：能編寫可重複使用且易維護的CSS樣式。</li>
+              <li>◆　Bootstrap 及 jQuery UI 框架:能運用框架快速排版網頁並使用預製UI元件。</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h5 class="list-title list-lignten-accent-15">JavaScript</h5>
+            <ul>
+              <li>◆　JavaScript：熟悉基本語法，經常使用陣列進行數據處理。</li>
+              <li>◆　jQuery：擅長DOM操作、事件處理及動畫實現網頁互動效果。</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h5 class="list-title">其他</h5>
+            <ul>
+              <li>◆　版本管理與協作：具備 Git 基礎版本管理操作，並能夠有效地協作於GitHub上。</li>
+              <li>◆　Figma：具有 prototype 設計的能力，能夠使用 Figma 實現設計概念。</li>
+              <li>◆　圖像創作和處理：熟練 Adobe Ai 和 Ps ，具備向量圖形製作和影像編修能力。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="Experience">
+    <div class="row justify-content-center">
+      <div class="col-11 col-md-10 col-lg-8 pl-xxxl">
+        <div class="title mb-xxxl text-align-center">
+          <h3 class="title-en">&lt;Experience&gt;</h3>
+          <h2 class="title-ch">經歷</h2>
+        </div>
+        <div id="experience" class="">
+          <div class="line line-primary line-start right-m"></div>
+          <div class="list">
+            <h5 class="list-title list-title-m list-title-primary list-lignten-primary-30">社團法人台灣農業科技資源運籌管理學會　活動推廣企劃助理
+            </h5>
+            <p class="list-subtitle">2022年07月 ~ 2022年08月</p>
+            <ul>
+              <li>◆　活動行銷製作物設計及執行</li>
+              <li>◆　宣傳影片與線上課程之圖卡及字卡製作</li>
+              <li>◆　社區產業活動支援</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h5 class="list-title list-title-m list-title-primary list-lignten-primary-15">元智大學人文社會學院　虛擬攝影棚手冊排版編輯工讀生
+            </h5>
+            <p class="list-subtitle">2021年12月 ~ 2022年11月</p>
+            <ul>
+              <li>◆　規劃與執行手冊更新的專案</li>
+              <li>◆　前置實務操作對於攝影棚設備的使用</li>
+              <li>◆　編修及新增手冊的文字與圖片內容</li>
+              <li>◆　使用 publisher 出版物編輯軟體，執行圖文編排與版面設計</li>
+            </ul>
+          </div>
+          <div class="list">
+            <h5 class="list-title list-title-m list-title-primary">元智大學資訊傳播學系ISEE電視台 實習生</h5>
+            <p class="list-subtitle">2021年07月 ~ 2022年06月</p>
+            <ul>
+              <li>◆　企劃與執行在地社區紀錄片專案</li>
+              <li>◆　執行VTuber在地美食介紹影片專案獲得最佳影片獎</li>
+              <li>◆　擔任虛擬攝影棚內導播機、音控、設備等操作教學</li>
+              <li>◆　社群媒體經營</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--
+  <section class="container">
+    <div class="title mb-xxxl text-align-center">
+      <h3 class="title-en">&lt;Skills&gt;</h3>
+      <h2 class="title-ch">技能</h2>
+    </div>
+    <div id="skills">
+      <div class="list">
+        <h5 class="list-title">網頁切版</h5>
+        <ul>
+          <li>◆　HTML5、CSS：熟悉網頁結構和排版原則。</li>
+          <li>◆　RWD：具有響應式網頁設計的概念，能夠設計和開發響應式網頁。</li>
+          <li>◆　SCSS：能編寫可重複使用且易維護的CSS樣式。</li>
+          <li>◆　Bootstrap 及 jQuery UI 框架:能運用框架快速排版網頁並使用預製UI元件。</li>
+        </ul>
+      </div>
+      <div class="list">
+        <h5 class="list-title">JavaScript</h5>
+        <ul>
+          <li>◆　JavaScript：熟悉基本語法，經常使用陣列進行數據處理。</li>
+          <li>◆　jQuery：擅長DOM操作、事件處理及動畫實現網頁互動效果。</li>
+        </ul>
+      </div>
+      <div class="list">
+        <h5 class="list-title">其他</h5>
+        <ul>
+          <li>◆　版本管理與協作：具備 Git 基礎版本管理操作，並能夠有效地協作於GitHub上。</li>
+          <li>◆　Figma：具有 prototype 設計的能力，能夠使用 Figma 實現設計概念。</li>
+          <li>◆　圖像創作和處理：熟練 Adobe Ai 和 Ps ，具備向量圖形製作和影像編修能力。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+-->
+  <section class="bgcolor-third section-pt-80 mb-0 text-align-center shadow-outside bdr-60" id="Side Project">
+    <div class="row justify-content-center mx-0">
+      <div class="col-10 col-sm-8">
+        <div class="title mb-xxxl text-align-center">
+          <h3 class="title-en">&lt;Side Project&gt;</h3>
+          <h2 class="title-ch">個人專案</h2>
+        </div>
+
+        <div class="project2 row justify-content-center">
+          <div class="project-title col-12">- 網頁切版 -</div>
+          <div class="project-start col-12 col-md-6 col-lg-5 p-s">
+            <img src="../src/assets/images/SideProject/We got art/We got art.png" id="WebLayout-1" alt="We got art 線上畫廊"
+              data-img="element" data-bs-toggle="modal" data-bs-target="#WebLayoutModal" class="work-hover">
+            <h5 class="aside-title">We got art 線上畫廊</h5>
+          </div>
+          <div class="project-end col-12 col-md-6 col-lg-5 p-s">
+            <img src="../src/assets/images/SideProject/口袋宿舍通/首頁.png" alt="口袋宿舍通" class="work-hover" data-img="element"
+              data-bs-toggle="modal" data-bs-target="#WebLayoutModal-2">
+            <h5 class="aside-title">口袋宿舍通</h5>
+          </div>
+        </div>
+
+
+        <div class="project2 row justify-content-center">
+          <div class="project-title col-12">- UI / UX -</div>
+          <div class="project-start col-12 col-md-6 col-lg-5 p-s">
+            <img src="../src/assets/images/SideProject/UI UX/webpages/口袋宿舍通_mockup.png" id="UIUX-1" alt="口袋宿舍通"
+              data-img="element" data-bs-toggle="modal" data-bs-target="#UIUXModal" class="work-hover">
+            <h5 class="aside-title">口袋宿舍通</h5>
+          </div>
+          <div class="project-end col-12 col-md-6 col-lg-5 p-s">
+            <img src="../src/assets/images/SideProject/UI UX/健身護照-02.png" alt="健身護照" class="work-hover"
+              data-img="element" data-bs-toggle="modal" data-bs-target="#UIUXModal-2">
+            <h5 class="aside-title">健身護照</h5>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="project2">
+          <div class="project-title">- 平面設計 -</div>
+
+          <!-- Slider main container -->
+          <div class="swiper swiper-style">
+
+            <!-- 幻燈片包裝容器 -->
+            <div class="swiper-wrapper">
+              <!-- 幻燈片 -->
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-1.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-1" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-2.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-2" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-3.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-3" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-4.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-4" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-5.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-5" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-6.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-6" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-7.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-7" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-8.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-8" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-9.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-9" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+              <div class="swiper-slide"><img src="../src/assets/images/SideProject/design/manual/manual-10.jpg" alt=""
+                  class="work-hover" data-img="manual/manual-10" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              </div>
+            </div>
+
+            <!-- 分頁(選寫) -->
+            <!-- <div class="swiper-pagination"></div> -->
+
+            <!-- 導覽箭頭按鈕(選寫) -->
+
+            <div class="swiper-button-prev swiper-button-style"><img src="../src/assets/icons/Back.png" alt=""></div>
+            <div class="swiper-button-next swiper-button-style"><img src="../src/assets/icons/Front.png" alt=""></div>
+
+            <h5 class="aside-title">虛擬攝影棚手冊</h5>
+          </div>
+
+
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 mb-xxl">
+              <img src="../src/assets/images/SideProject/design/1091萬國_mockup.png" alt="活動宣傳海報" class="work-hover"
+                data-img="poster" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              <h5 class="aside-title">活動宣傳海報</h5>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-xxl">
+              <img src="../src/assets/images/SideProject/design/自介雜誌對頁_mockup.png" alt="雜誌內頁" class="work-hover"
+                data-img="magzine" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              <h5 class="aside-title">雜誌內頁</h5>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-xxl">
+              <img src="../src/assets/images/SideProject/design/verona_brochure.png" alt="menu" class="work-hover"
+                data-img="brochure" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              <h5 class="aside-title">餐廳 menu</h5>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-xxl">
+              <img src="../src/assets/images/SideProject/design/元素設計_mockup.png" alt="元素設計" class="work-hover"
+                data-img="element" data-bs-toggle="modal" data-bs-target="#DesignModal">
+              <h5 class="aside-title">元素設計</h5>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Design Modal -->
+  <div class="modal fade" id="DesignModal" tabindex="-1" aria-labelledby="DesignModalLabel" aria-hidden="true">
+    <div class="modal-dialog mw-50 mw-pc-75 mw-mobile-95">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title color-primary" id="DesignModalLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <img src="" alt="" id="modal-img" class="mb-s mx-s">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- 網頁切版_we got art Modal -->
+  <div class="modal fade" id="WebLayoutModal" tabindex="-1" aria-labelledby="WebLayoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog mw-75 mw-mobile-95 modal-dialog-scrollable">
+      <div class="modal-content overflow-x-hidden overflow-y-auto" id="modal-3">
+        <div class="modal-header border-0 justify-content-start">
+          <h5 class="modal-title color-primary align-self-center" id="WebLayoutModalLabel"></h5>
+          <button type="button" class="btn-close align-self-end" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="row px-s py-xxxl bgcolor-bg-color justify-content-center">
+          <div class="col-10 col-lg-4 position-relative">
+            <div class=" position-sticky top-s px-m row">
+              <video autoplay muted loop class="col-12 col-sm-7 col-lg-12 mb-l" id="myVideo">
+                <source src="../src/assets/mp4/we_got_art.mp4" type="video/mp4" class="">
+              </video>
+              <div
+                class="text-center position-sticky top-500 col-12 col-sm-5 col-lg-12 d-flex flex-column justify-content-center mb-l">
+                <a href="https://1082013.github.io/online-gallery/" target="_blank"
+                  class="btn h-xxxl fz-ft lts-xxxxs mb-ft d-block mw-100 d-flex justify-content-center align-items-center">
+                  <img src="../src/assets/icons/web_FILL0_wght400_GRAD0_opsz24.svg" alt="we got art作品Demo連結"
+                    class="align-middle"><span class="ml-xxs">網頁連結</span>
+                </a>
+                <a href="https://github.com/1082013/online-gallery" target="_blank"
+                  class="btn h-xxxl fz-ft lts-xxxxs mb-ft d-block mw-100 d-flex justify-content-center align-items-center">
+                  <img src="../src/assets/icons/github.png" alt="we got art作品github連結" class="align-middle"><span
+                    class="ml-xxs">Github</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-10 col-lg-8">
+            <div class="text-start">
+              <h6 class="mb-xxs"> | 負責項目</h6>
+              <ul>
+                <li class="solid-before">使用 javascript 的媒體查詢，讓網頁互動效果更多樣</li>
+                <li class="solid-before">善用陣列與 DOM 減少大量相同程式碼的撰寫</li>
+                <li class="solid-before">id 命名使用變數，撰寫 CSS 樣式或是 js 互動效果時，可以更快速套用<br></li>
+              </ul><br>
+              <h6 class="mb-xxs"> | 負責工作</h6>
+              <ul>
+                <li class="solid-before">企劃 - 主題發想、網頁架構及功能</li>
+                <li class="solid-before">首頁 - 畫家介紹：RWD、互動效果、程式碼優化</li>
+                <li class="solid-before">分頁 - 作品介紹：完整網頁切版、RWD、互動效果</li>
+              </ul><br>
+              <h6 class="mb-xxs"> | 專案技術</h6>
+              <ul>
+                <li class="solid-before">HTML、SCSS（Sass）、JavaScript、RWD（響應式網頁設計）、Git 版本控制</li>
+              </ul><br>
+              <h6 class="mb-xxs"> | 第三方資源</h6>
+              <ul>
+                <span class="solid-before">jQuery</span>
+                <li class="pl-xl hollow-before">處理互動元素</li>
+              </ul><br>
+              <ul>
+                <span class="solid-before">Boostrap</span>
+                <li class="pl-xl hollow-before">Carousel輪播，使用於首頁最下方的畫作輪播，可透過左右箭頭進行輪播畫作的切換。</li>
+              </ul><br>
+              <ul>
+                <span class="solid-before">jQuery UI</span>
+                <li class="pl-xl hollow-before">Tabs，使用於分頁畫作介紹之畫家作品頁切換，當觸滑鼠點及或是移動到Tabs中的畫家名稱上，可將內容切換至該畫家之作品。</li>
+                <li class="pl-xl hollow-before">Dialog，使用於分頁畫作介紹之作品介紹，當點擊畫作introduction之按鈕，可開啟dialog觀看該作品介紹。</li>
+              </ul><br>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 網頁切版_口袋宿舍通 -->
+  <div class="modal fade" id="WebLayoutModal-2" tabindex="-1" aria-labelledby="WebLayoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog mw-75 mw-mobile-95 modal-dialog-scrollable">
+      <div class="modal-content overflow-x-hidden overflow-y-auto" id="modal-4">
+        <div class="modal-header border-0 justify-content-start">
+          <h5 class="modal-title color-primary align-self-center" id="WebLayoutModalLabel"></h5>
+          <button type="button" class="btn-close align-self-end" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="row px-s py-xxxl bgcolor-bg-color justify-content-center">
+          專案進行中
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- UIUX_口袋宿舍通 Modal -->
+  <div class="modal fade" id="UIUXModal" tabindex="-1" aria-labelledby="UIUXModalLabel" aria-hidden="true">
+    <div class="modal-dialog mw-75 mw-pad-85 mw-mobile-95 modal-dialog-scrollable">
+      <div class="modal-content overflow-x-hidden overflow-y-auto" id="modal-1">
+        <div class="modal-header border-0 justify-content-start">
+          <h5 class="modal-title color-primary align-self-center" id="UIUXModalLabel"></h5>
+          <button type="button" class="btn-close align-self-end" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Tab 按鈕 -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="UX-tab" data-bs-toggle="tab" data-bs-target="#UX" type="button"
+              role="tab" aria-controls="UX" aria-selected="true">UX 設計內容</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="UI-tab" data-bs-toggle="tab" data-bs-target="#UI" type="button" role="tab"
+              aria-controls="UI" aria-selected="false">UI 設計</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="Figma-tab" data-bs-toggle="tab" data-bs-target="#Figma" type="button"
+              role="tab" aria-controls="Figma" aria-selected="false">Figma連結</button>
+          </li>
+        </ul>
+        <!-- Tab 選項 -->
+        <div class="tab-content" id="myTabContent">
+          <!-- UX -->
+          <div class="tab-pane fade show active" id="UX" role="tabpanel" aria-labelledby="UX-tab">
+            <div class="row bgcolor-nav-bg-color">
+              <div class="col-12 col-lg-3">
+                <nav
+                  class="flex-row flex-lg-column position-sticky top-s fz-xs pt-0 pb-0 d-none d-sm-flex  lh-l lh-pc-ft lh-l lh-pc-ft text-center text-lg-start">
+                  <a class="list-group-item list-group-item-action disabled fz-ft d-none d-lg-inline">UX設計內容</a>
+                  <a class="list-group-item list-group-item-action active" aria-current="page"
+                    href="#Main_function_feature" id="Main_function_feature_title">主要服務的功能與特色</a>
+                  <a class="list-group-item list-group-item-action" href="#Interview" id="Interview_title">訪談</a>
+                  <a class="list-group-item list-group-item-action" href="#Empathy_Map" id="Empathy_Map_title">同理心地圖</a>
+                  <a class="list-group-item list-group-item-action" href="#Service_Blueprinting"
+                    id="Service_Blueprinting_title">服務藍圖</a>
+                  <a class="list-group-item list-group-item-action" href="#User_Journey_Map"
+                    id="User_Journey_Map_title">使用者旅程地圖</a>
+                </nav>
+              </div>
+              <div class="col-12 col-lg-9 pr-xxl pl-0 px-pc-ft">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UX設計內容/UXDesignContent.png" alt=""
+                  id="UI_Design_Content" class="my-0">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UX設計內容/UXDesignContent-MainFuctionFeature.png"
+                  alt="" id="Main_function_feature">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UX設計內容/UXDesignContent-Interview.png" alt=""
+                  id="Interview">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UX設計內容/UXDesignContent-EmpathyMap.png" alt=""
+                  id="Empathy_Map">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UX設計內容/UXDesignContent-ServiceBlueprinting.png"
+                  alt="" id="Service_Blueprinting">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UX設計內容/UXDesignContent-UserJourneyMap.png"
+                  alt="" id="User_Journey_Map">
+              </div>
+            </div>
+          </div>
+          <!-- UI 設計 -->
+          <div class="tab-pane fade" id="UI" role="tabpanel" aria-labelledby="UI-tab">
+            <div class="row bgcolor-nav-bg-color">
+              <div class="col-12 col-lg-3">
+                <nav
+                  class="flex-row flex-lg-column position-sticky top-s fz-xs pt-0 pb-0 d-none d-sm-flex  lh-l lh-pc-ft text-center text-lg-start">
+                  <a class="list-group-item list-group-item-action disabled fz-ft d-none d-lg-inline">UI 設計</a>
+                  <a class="list-group-item list-group-item-action active" aria-current="page" href="#ColorScheme"
+                    id="ColorScheme_title">色彩計畫</a>
+                  <a class="list-group-item list-group-item-action" href="#LOGOICONDesign"
+                    id="LOGOICONDesign_title">LOGO設計 & ICON設計 </a>
+                  <a class="list-group-item list-group-item-action" href="#UIDesign" id="UIDesign_title">UI 設計 </a>
+                </nav>
+              </div>
+              <div class="col-12 col-lg-9 pr-xxl pl-0 px-pc-ft">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UI設計/UIDesign&Flow_Title.png" alt=""
+                  id="UI_Design" class="my-0">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UI設計/ColorScheme.png" alt="" id="ColorScheme">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UI設計/LOGO&ICONDesign.png" alt=""
+                  id="LOGOICONDesign">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UI設計/UIDesign&Flow-1.png" alt="" id="UIDesign">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UI設計/UIDesign&Flow-2.png" alt="" id="">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UI設計/UIDesign&Flow-3.png" alt="" id="">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UI設計/UIDesign&Flow-4.png" alt="" id="">
+                <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/UI設計/UIDesign&Flow-5.png" alt="" id="">
+              </div>
+            </div>
+          </div>
+          <!-- Figma -->
+          <div class="tab-pane fade" id="Figma" role="tabpanel" aria-labelledby="Figma-tab">
+            <div class="row bgcolor-nav-bg-color text-center text-lg-start align-items-center">
+              <div class="col-12 col-lg-3">
+                <nav
+                  class="flex-row flex-lg-column position-sticky top-s fz-xs pt-0 pb-0 d-none d-sm-flex  lh-l lh-pc-ft">
+                  <a class="list-group-item list-group-item-action disabled fz-ft d-none d-lg-inline"
+                    href="#Figma">Figma連結</a>
+                  <a class="list-group-item list-group-item-action active" aria-current="page" href="#Figma-1"
+                    id="Figma-1_title">Figma連結</a>
+                </nav>
+              </div>
+              <div class="col-12 col-lg-9 pr-xxl pl-0 px-pc-ft">
+                <a href="https://www.figma.com/file/FjCcahztPY8Mav03Fej892/Untitled?node-id=0%3A1" target="_blank">
+                  <img src="../src/assets/images/SideProject/UI UX/口袋宿舍通專案/Figma連結/Figma連結.png" alt="" id="Figma-1"
+                    class="my-0">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- UIUX_健身護照 Modal -->
+  <div class="modal fade" id="UIUXModal-2" tabindex="-1" aria-labelledby="UIUXModalLabel" aria-hidden="true">
+    <div class="modal-dialog mw-75 mw-pad-85 mw-mobile-95 modal-dialog-scrollable">
+      <div class="modal-content overflow-x-hidden overflow-y-auto" id="modal-2">
+        <div class="modal-header border-0 justify-content-start">
+          <h5 class="modal-title color-primary align-self-center" id="UIUXModalLabel"></h5>
+          <button type="button" class="btn-close align-self-end" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Tab 按鈕 -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="UX-2-tab" data-bs-toggle="tab" data-bs-target="#UX-2" type="button"
+              role="tab" aria-controls="UX-2" aria-selected="true">UX 工作坊成果</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="expert-2-tab" data-bs-toggle="tab" data-bs-target="#expert-2" type="button"
+              role="tab" aria-controls="expert-2" aria-selected="false">專家評論意見修改說明</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="SUS-2-tab" data-bs-toggle="tab" data-bs-target="#SUS-2" type="button"
+              role="tab" aria-controls="SUS-2" aria-selected="false">使用者測試與SUS</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="UI-2-tab" data-bs-toggle="tab" data-bs-target="#UI-2" type="button" role="tab"
+              aria-controls="UI-2" aria-selected="false">UI wireframe 與 flow 展示</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="Figma-2-tab" data-bs-toggle="tab" data-bs-target="#Figma-2" type="button"
+              role="tab" aria-controls="Figma-2" aria-selected="false">Figma連結</button>
+          </li>
+        </ul>
+        <!-- Tab 選項 -->
+        <div class="tab-content" id="myTabContent">
+          <!-- UX -->
+          <div class="tab-pane fade show active" id="UX-2" role="tabpanel" aria-labelledby="UX-2-tab">
+            <div class="row bgcolor-nav-bg-color" id="tab1">
+              <div class="col-12 col-lg-3">
+                <nav
+                  class="flex-row flex-lg-column position-sticky top-s fz-xs pt-0 pb-0 d-none d-sm-flex  lh-l lh-pc-ft text-center text-lg-start ">
+                  <a class="list-group-item list-group-item-action disabled fz-ft d-none d-lg-inline">UX 工作坊成果</a>
+                  <a class="list-group-item list-group-item-action active" aria-current="page"
+                    href="#Main_function_feature-2" id="Main_function_feature-2_title">主要服務的功能與特色</a>
+                  <a class="list-group-item list-group-item-action" href="#Interview-2" id="Interview-2_title">訪談</a>
+                  <a class="list-group-item list-group-item-action" href="#Empathy_Map-2"
+                    id="Empathy_Map-2_title">同理心地圖</a>
+                  <a class="list-group-item list-group-item-action" href="#Persona-1-2" id="Persona-1-2_title">人物誌</a>
+                  <a class="list-group-item list-group-item-action" href="#Service_Blueprinting-2"
+                    id="Service_Blueprinting-2_title">服務藍圖</a>
+                  <a class="list-group-item list-group-item-action" href="#User_Journey_Map-2"
+                    id="User_Journey_Map-2_title">使用者旅程地圖</a>
+                </nav>
+              </div>
+              <div class="col-12 col-lg-9 pr-xxl pl-0 px-pc-ft">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UX 工作坊成果/UX_Title.png" alt=""
+                  id="UI_Design_Content-2" class="my-0">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UX 工作坊成果/MainFunctionFeature.png" alt=""
+                  id="Main_function_feature-2">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UX 工作坊成果/Interview.png" alt="" id="Interview-2">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UX 工作坊成果/EmpathyMap.png" alt=""
+                  id="Empathy_Map-2">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UX 工作坊成果/Persona-1.png" alt="" id="Persona-1-2">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UX 工作坊成果/Persona-2.png" alt="" id="Persona-2">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UX 工作坊成果/ServiceBlueprinting.png" alt=""
+                  id="Service_Blueprinting-2">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UX 工作坊成果/UserJourneyMap.png" alt=""
+                  id="User_Journey_Map-2">
+              </div>
+            </div>
+          </div>
+          <!-- 專家評論意見修改說明 -->
+          <div class="tab-pane fade" id="expert-2" role="tabpanel" aria-labelledby="expert-2-tab">
+            <div class="position-relative d-lg-flex  bgcolor-nav-bg-color" id="tab2">
+              <nav
+                class="flex-row flex-lg-column position-sticky top-s fz-xs pt-0 pb-0 col-12 col-lg-3 d-none d-sm-flex  lh-l lh-pc-ft text-center text-lg-start align-items-center">
+                <a class="list-group-item list-group-item-action disabled fz-ft d-none d-lg-inline">專家評論意見修改說明</a>
+                <a class="list-group-item list-group-item-action active" aria-current="page" href="#Export"
+                  id="Export_title">專家評論意見修改說明</a>
+              </nav>
+              <div class="col-12 col-lg-9 pr-xxl pl-0 px-pc-ft ">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/專家評論意見修改說明/expert.png" alt="" id="Export"
+                  class="my-0">
+              </div>
+            </div>
+          </div>
+          <!-- 使用者測試與SUS -->
+          <div class="tab-pane fade" id="SUS-2" role="tabpanel" aria-labelledby="SUS-2-tab">
+            <div class="position-relative d-lg-flex  bgcolor-nav-bg-color" id="tab3">
+              <nav
+                class="flex-row flex-lg-column position-sticky top-s fz-xs pt-0 pb-0 col-12 col-lg-3 d-none d-sm-flex  lh-l lh-pc-ft text-center text-lg-start align-items-center">
+                <a class="list-group-item list-group-item-action disabled fz-ft d-none d-lg-inline">使用者測試與SUS</a>
+                <a class="list-group-item list-group-item-action active" aria-current="page" href="#SUS"
+                  id="SUS_title">使用者測試與SUS</a>
+              </nav>
+              <div class="col-12 col-lg-9">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/SUS/SUS.png" alt="" id="SUS" class="my-0">
+              </div>
+            </div>
+          </div>
+          <!-- UI wireframe 與 flow 展示 -->
+          <div class="tab-pane fade" id="UI-2" role="tabpanel" aria-labelledby="UI-2-tab">
+            <div class="position-relative d-lg-flex  bgcolor-nav-bg-color" id="tab4">
+              <nav
+                class="flex-row flex-lg-column position-sticky top-s fz-xs pt-0 pb-0 col-12 col-lg-3 d-none d-sm-flex  lh-l lh-pc-ft text-center text-lg-start align-items-center">
+                <a class="list-group-item list-group-item-action disabled fz-ft d-none d-lg-inline">UI wireframe 與 flow
+                  展示</a>
+                <a class="list-group-item list-group-item-action active" aria-current="page"
+                  href="#organizational-chart" id="organizational-chart_title">UI wireframe 與 flow 展示</a>
+              </nav>
+              <div class="col-12 col-lg-9 pr-xxl pl-0 px-pc-ft">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UI wireframe&Flow/organizational-chart.png"
+                  alt="" id="organizational-chart" class="my-0">
+                <img src="../src/assets/images/SideProject/UI UX/健身護照專案/UI wireframe&Flow/UIFlow.png" alt=""
+                  id="UIFlow">
+              </div>
+            </div>
+          </div>
+          <!-- Figma -->
+          <div class="tab-pane fade" id="Figma-2" role="tabpanel" aria-labelledby="Figma-2-tab">
+            <div class="position-relative d-lg-flex  bgcolor-nav-bg-color" id="tab5">
+              <nav
+                class="flex-row flex-lg-column position-sticky top-s fz-xs pt-0 pb-0 col-12 col-lg-3 d-none d-sm-flex  lh-l lh-pc-ft text-center text-lg-start align-items-center">
+                <a class="list-group-item list-group-item-action disabled fz-ft d-none d-lg-inline">Figma連結</a>
+                <a class="list-group-item list-group-item-action active" href="#Figma-2" id="Figma-2_title">Figma連結</a>
+              </nav>
+              <div class="col-12 col-lg-9">
+                <a href="https://www.figma.com/file/M0WE8i7RTv88l4LlV6FmSY/%E5%81%A5%E8%BA%AB%E7%85%A7%E8%AD%B7?node-id=0%3A1"
+                  target="_blank">
+                  <img src="../src/assets/images/SideProject/UI UX/健身護照專案/Figma 連結/Figma 連結.png" alt="" id="Figma"
+                    class="my-0">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+
+  <footer class="container">
+    <div class="row flex-column-reverse flex-lg-row">
+      <div class="contact col-12 col-lg-3">
+        <div class="contact-person">
+          <img class="contact-person-logo" src="../src/assets/images/Logo.png" alt="Logo">
+          <div class="contact-person-name title-accent">
+            <h1 class="fz-l lts-xxxxs">蔡容安</h1>
+            <p class="lts-xxxxs">Tsai, Rung-An</p>
+          </div>
+        </div>
+        <p class="contact-infor">tel:0909-739-891<br>mail:yhjhs92929.2016@gmail.com</p>
+      </div>
+      <span class="line col-1"></span>
+      <div class="others col-12 col-lg-8">
+        <div class="title mb-ft">
+          <h3 class="title-en">&lt;others&gt;</h3>
+          <h2 class="title-ch">其他平台</h2>
+        </div>
+        <div class="others-button">
+          <a href="https://cai-rong-an.gitbook.io/wang-ye-qian-duan-bi-ji/" target="_blank">
+            <button type="button" class="btn">程式筆記<span
+                class="material-symbols-outlined va-m">trending_flat</span></button></a>
+          <a href="https://yhjhs929292016.wixsite.com/ra-tsai-portfolio-uy" target="_blank">
+            <button type="button" class="btn ml-xs">更多作品<span
+                class="material-symbols-outlined va-m">trending_flat</span></button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">@copyright</p>
+  </footer>
+
+
+  <!-- JS 檔 -->
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="../src/js/Module.js"></script>
+  <script src="../src/js/index.js"></script>
+
+</body>
+
+</html>

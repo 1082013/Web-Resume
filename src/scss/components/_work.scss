@@ -1,0 +1,9 @@
+.work-hover {
+  transition-property: transform;
+  transition-duration: 300ms;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

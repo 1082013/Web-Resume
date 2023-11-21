@@ -1,0 +1,36 @@
+@mixin RWD($value) {
+  @media screen and (max-width: $value) {
+    @content;
+  }
+}
+
+@each $keyBP, $valueBP in $breakpoints {
+  @include RWD($valueBP) {
+
+    @each $key, $value in $percentages {
+      .mw-#{$keyBP}-#{$key} {
+        max-width: $value;
+      }
+    }
+
+    @each $key, $value in $sizes {
+      .fz-#{$keyBP}-#{$key} {
+        font-size: $value;
+      }
+      .lh-#{$keyBP}-#{$key}{
+        line-height: $value;
+      }
+      .p-#{$keyBP}-#{$key} {
+        padding: $value;
+      }
+      .px-#{$keyBP}-#{$key}{
+        padding-right: $value;
+        padding-left: $value;
+      }
+      .mb-#{$keyBP}-#{$key}{
+        margin-bottom: $value;
+      }
+    }
+  }
+
+}

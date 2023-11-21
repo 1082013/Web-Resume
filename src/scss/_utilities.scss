@@ -1,0 +1,163 @@
+@each $key, $value in $sizes {
+
+  /*font*/
+  .fz-#{$key} {
+    font-size: $value;
+  }
+
+  .lts-#{$key} {
+    letter-spacing: $value !important;
+  }
+
+  .lh-#{$key} {
+    line-height: $value;
+  }
+
+  .h-#{$key} {
+    height: $value !important;
+  }
+
+  /*spacing*/
+  .m-#{$key} {
+    margin: $value;
+  }
+
+  .mt-#{$key} {
+    margin-top: $value;
+  }
+
+  .mb-#{$key} {
+    margin-bottom: $value;
+  }
+
+  .ml-#{$key} {
+    margin-left: $value;
+  }
+
+  .mr-#{$key} {
+    margin-right: $value;
+  }
+
+  .mx-#{$key} {
+    margin-right: $value;
+    margin-left: $value;
+  }
+
+  .my-#{$key} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+
+  .p-#{$key} {
+    padding: $value;
+  }
+
+  .pt-#{$key} {
+    padding-top: $value;
+  }
+
+  .pb-#{$key} {
+    padding-bottom: $value;
+  }
+
+  .pl-#{$key} {
+    padding-left: $value;
+  }
+
+  .pr-#{$key} {
+    padding-right: $value;
+  }
+
+  .px-#{$key} {
+    padding-right: $value;
+    padding-left: $value;
+  }
+
+  .py-#{$key} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+
+  /*position*/
+  .top-#{$key} {
+    top: ($value);
+  }
+
+  .bottom-#{$key} {
+    bottom: ($value);
+  }
+
+  .left-#{$key} {
+    left: ($value);
+  }
+
+  .right-#{$key} {
+    right: ($value);
+  }
+}
+
+@each $key, $value in $colors {
+  .title-#{$key} {
+    color: $value;
+  }
+
+  .color-#{$key} {
+    color: $value;
+  }
+
+  .bgcolor-#{$key} {
+    background-color: $value;
+  }
+
+  .border-#{$key} {
+    border: 1px solid $value;
+  }
+
+  .hover-#{$key} {
+    &:hover {
+      color: $value;
+    }
+  }
+}
+
+@each $key, $value in $percentages {
+  .mw-#{$key} {
+    max-width: $value;
+  }
+
+  .w-#{$key} {
+    width: $value;
+  }
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.border-0 {
+  border: 0px;
+}
+
+.top-500 {
+  top: 500px;
+}
+
+.mw-200 {
+  max-width: 200px;
+}
+
+.mh-276 {
+  max-height: 276px;
+}
+
+.bdr-60{
+  border-radius: 60px 60px 0 0;
+}
+
+.bdr-rt-lb-60{
+  border-radius: 0 60px 0 60px;
+}

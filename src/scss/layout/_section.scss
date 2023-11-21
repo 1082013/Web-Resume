@@ -1,0 +1,19 @@
+section {
+  margin-bottom: 120px;
+  
+
+  @include RWD($mobile) {
+    margin-bottom: 48px;
+  }
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.section-pt-80{
+  padding-top: 120px;
+  
+  @include RWD($mobile) {
+    padding-top: 48px;
+  }
+}

@@ -1,0 +1,91 @@
+/*------------------- color -----------------*/
+//theme
+$primary:      #07E595;
+$secondary:    #FFE4D6;
+$third:        #E3FAF0;
+$accent:       #F2AF00;
+$bg-color:     #F4F4F4;
+$nav-bg-color: #f2f2f2;
+//other
+$white:     #fff;
+$black:     #000;
+
+$colors:(
+  'primary':       $primary,
+  'secondary':     $secondary,
+  'third':         $third,
+  'accent':        $accent,
+  'bg-color':      $bg-color,
+  'white':         $white,
+  'black':         $black,
+  'nav-bg-color':  $nav-bg-color,
+);
+
+/*------------------ font ------------------*/
+//預設文字大小
+$ft: 16px;
+
+$xxxxs: 0.1rem; 
+$xxxs:  0.2rem;   
+$xxs:   0.5rem;   //8px
+$xs:    0.75rem;  //12px
+$s:     1.25rem;  //20px
+$m:     1.5rem;   //24px
+$l:     1.75rem;  //28px
+$xl:    2rem;     //32px
+$xxl:   2.25rem;  //36px
+$xxxl:  2.75rem;  //44px
+
+$sizes:(
+  'ft':    $ft,
+  'xxxxs': $xxxxs,
+  'xxxs':  $xxxs,
+  'xxs':   $xxs,
+  'xs':    $xs,
+  's':     $s,
+  'm':     $m,
+  'l':     $l,
+  'xl':    $xl,
+  'xxl':   $xxl,
+  'xxxl':  $xxxl,
+);
+
+/*----------------- max-width -----------------*/
+$zero:        0%;
+$ten:         10%;
+$fifteen:     15%;
+$twenty:      20%;
+$twentyfive:  25%;
+$fifty:       50%;
+$seventyfive: 75%;
+$eighty:      80%;
+$eightyfive:  85%;
+$ninty:       90%;
+$nintyfive:   95%;
+$hundred:     100%;
+
+$percentages:(
+  '0':        $zero,
+  '10':       $ten,
+  '15':       $fifteen,
+  '20':       $twenty,
+  '25':       $twentyfive,
+  '50':       $fifty,
+  '75':       $seventyfive,
+  '80':       $eighty,
+  '85':       $eightyfive,
+  '90':       $ninty,
+  '95':       $nintyfive,
+  '100':      $hundred,
+);
+
+/*----------------- breakpoints -----------------*/
+$pc:        992px;
+$pad:       768px;
+$mobile:    576px;
+
+$breakpoints:(
+  'pc':     $pc,
+  'pad':    $pad,
+  'mobile': $mobile,
+);

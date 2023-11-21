@@ -1,0 +1,31 @@
+@mixin size($width, $height){
+  width: $width;
+  height: $height;
+}
+
+@mixin font($fz, $lts, $fw){
+  font-size: $fz;
+  letter-spacing: $lts;
+  font-weight: $fw;
+}
+
+@mixin color($color, $bg-color){
+  color: $color;
+  background-color: $bg-color;
+}
+
+@mixin border($border-color, $border-width, $border-radius){
+  border: $border-width solid $border-color;
+  border-radius: $border-radius;
+}
+
+@mixin spacing($padding,$margin){
+  padding: $padding;
+  margin: $margin;
+}
+
+/*flex*/
+@mixin f-jc-spacearound{
+  display: flex;
+  justify-content: space-between;
+}

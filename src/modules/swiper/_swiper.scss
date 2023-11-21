@@ -1,0 +1,14 @@
+.swiper-style{
+  margin-bottom: 48px;
+}
+
+.swiper-button-style{
+  height: 40px;
+  width: 40px;
+}
+.swiper-button-prev, .swiper-button-next{
+  &:after{
+    content: '';
+  }
+}
+

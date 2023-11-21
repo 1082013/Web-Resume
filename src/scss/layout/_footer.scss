@@ -1,0 +1,23 @@
+footer {
+  padding-top: $m;
+  padding-bottom: $xxs;
+
+  .copyright {
+    font-size: $xs;
+    text-align: center;
+    color: lighten($black, 50%);
+  }
+}
+
+.others {
+  &-button {
+    display: flex;
+    justify-content: end;
+  }
+
+  @include RWD($pc) {
+    border-bottom: 1px solid lighten($black, 80%);
+    padding-bottom: $s;
+    margin-bottom: $xs;
+  }
+}

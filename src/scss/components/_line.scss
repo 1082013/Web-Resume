@@ -1,0 +1,44 @@
+.line {
+  position: relative;
+
+  &::before {
+    content: "";
+    background-color: lighten($black, 40%);
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@each $key, $value in $colors {
+  .line-#{$key} {
+    &::before {
+      background-color: $value;
+      height: 650px;
+
+      @include RWD($mobile) {
+        height: 850px;
+      }
+    }
+  }
+}
+
+.line-start {
+  &::before {
+    left: 0%;
+  }
+}
+
+.line-h550 {
+  &::before {
+    height: 550px;
+  }
+}
+
+.line-h750 {
+  &::before {
+    height: 750px;
+  }
+}

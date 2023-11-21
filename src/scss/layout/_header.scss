@@ -1,0 +1,8 @@
+header{
+  margin-top: 24px;
+  margin-bottom: 88px;
+  
+  @include RWD($pad) {
+    margin-bottom: 48px;
+  }
+}

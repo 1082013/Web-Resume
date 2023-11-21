@@ -1,0 +1,20 @@
+.title {
+  &-en {
+    @include font($s, $xxs, $xxs);
+    color: $primary;
+    margin-bottom: 10px;
+
+    @include RWD($mobile) {
+      @include font($ft, $xxxs, $xxxs);
+    }
+  }
+
+  &-ch {
+    @include font($xxl, $xs, auto);
+    color: $black;
+
+    @include RWD($mobile) {
+      @include font($xl, $xxs, auto);
+    }
+  }
+}

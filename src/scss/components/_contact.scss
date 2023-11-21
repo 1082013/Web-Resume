@@ -1,0 +1,18 @@
+.contact {
+  text-align: right;
+  @include f-jc-spacearound;
+  flex-direction: column;
+
+  &-person {
+    @include f-jc-spacearound;
+
+    &-logo {
+      @include size(60px, 60px);
+    }
+  }
+
+  &-infor {
+    font-size: $xs;
+    line-height: $s;
+  }
+}

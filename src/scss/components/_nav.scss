@@ -1,0 +1,63 @@
+.nav {
+  color: lighten($primary, 10%);
+
+  &-item {
+    font-size: $ft;
+    @include RWD($mobile) {
+      font-size: $xs;
+    }
+  }
+
+  &-link {
+    color: $primary;
+    &:hover {
+      color: darken($primary, 10%);
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include RWD($mobile) {
+    align-items: flex-start;
+  }
+}
+
+.logo {
+  &-item {
+    @include size(100px, 100px);
+
+    @include RWD($pad) {
+      @include size(60px, 60px);
+    }
+
+    @include RWD($mobile) {
+      @include size(45px, 45px);
+    }
+  }
+}
+
+.link {
+  font-size: $s;
+  @include border($black, 1px, 100px);
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+
+  @include RWD($pad) {
+    font-size: $ft;
+    padding: 10px 14px;
+  }
+
+  @include RWD($mobile) {
+    padding: 8px 14px;
+    flex-wrap: wrap;
+  }
+
+  a {
+    padding: 0 5px;
+  }
+}

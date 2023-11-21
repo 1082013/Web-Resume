@@ -1,0 +1,57 @@
+.list {
+  margin-bottom: 48px;
+
+  &-title {
+    font-size: $l;
+    margin-bottom: $s;
+    position: relative;
+
+    @include RWD($mobile) {
+      font-size: $m;
+    }
+
+    &::before {
+      content: '●';
+      position: absolute;
+      left: -37px;
+      top: -2px;
+      font-size: $xxxl;
+      color: $accent;
+    }
+  }
+
+  &-subtitle {
+    font-size: $s;
+    margin-bottom: $s;
+    
+    @include RWD($mobile) {
+      font-size: $ft;
+    }
+  }
+}
+
+.list-title-m {
+  font-size: $m;
+  
+  @include RWD($mobile) {
+    font-size: $s;
+  }
+}
+
+.list-title-primary {
+  &::before {
+    color: $primary;
+  }
+}
+
+@for $i from 10 through 30 {
+  @if $i%5==0 {
+    @each $key, $value in $colors {
+      .list-lignten-#{$key}-#{$i} {
+        &::before {
+          color: lighten($value, $i);
+        }
+      }
+    }
+  }
+}

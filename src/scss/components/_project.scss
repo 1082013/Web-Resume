@@ -1,0 +1,13 @@
+.project-title {
+  font-size: $l;
+  margin-bottom: $xxxl;
+  @include RWD($mobile){
+    font-size: $m;
+  }
+}
+
+@for $i from 1 to 3 {
+  .project#{$i} {
+    margin-bottom: 80px;
+  }
+}
